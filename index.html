@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>مطعم البركة</title>
+    <link rel="stylesheet" href="style.css" />
+    <base href="assets/" />
+  </head>
+  <body>
+    <button id="top">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="size-6"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="m4.5 15.75 7.5-7.5 7.5 7.5"
+        />
+      </svg>
+    </button>
+    <header>
+      <div>
+        <p>أهلا بيك في مطعم البركة</p>
+        <p>أكلات شهية لتجربة استثنائية</p>
+        <a href="../index.html#menu" class="menu">استكشف القائمة</a>
+      </div>
+
+      <a href="../cart.html" class="cart">
+        <span class="content">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
+            />
+          </svg>
+          <span class="number">0</span>
+        </span>
+      </a>
+    </header>
+
+    <section class="intro">
+      <div class="card">
+        <div class="icon"><i data-lucide="utensils-crossed"></i></div>
+        <div class="head">أطباق شهية</div>
+        <div class="content">أطباق محضرة بأجود الأنواع</div>
+      </div>
+      <div class="card">
+        <div class="icon"><i data-lucide="clock"></i></div>
+        <div class="head">خدمة سريعة</div>
+        <div class="content">خدمة سريعة ومميزة</div>
+      </div>
+      <div class="card">
+        <div class="icon"><i data-lucide="star-check"></i></div>
+        <div class="head">جودة عالية</div>
+        <div class="content">جودة عالية في الطعام والخدمة</div>
+      </div>
+    </section>
+
+    <section class="google-map"></section>
+
+    <section class="menu" id="menu">
+      <h2 class="title">قائمة الطعام</h2>
+      <!-- <div class="categories">
+        <div class="active">الكل</div>
+        <div class="category">المشويات</div>
+        <div class="category">المشويات</div>
+      </div> -->
+      <!-- <div class="cards">
+        <div class="not-exists">
+          لا يوجد أطباق
+        </div>
+        <div class="card">
+          <div class="face front">
+            <img src="pigeon.jpg" alt="حمام مشوي" />
+          </div>
+          <div class="face back">
+            <div class="text">
+              <div class="title">حمام</div>
+              <div class="description">حمام مشوي</div>
+              <div class="price">120 ج.م</div>
+            </div>
+            <button>
+              C
+              <div class="add">+1</div>
+            </button>
+          </div>
+        </div>
+      </div> -->
+    </section>
+
+    <footer></footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <script type="module" src="../index.js"></script>
+  </body>
+</html>
